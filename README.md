@@ -7,4 +7,4 @@ Este es el frontend para consumir la API protegida del ejercicio de seguridad.
 2. Abre el archivo `index.html` directamente en tu navegador web.
 3. Haz clic en "Get Protected Data" para probar la ruta GET.
 4. Haz clic en "Send POST Request" para probar la ruta POST.
-5. Los resultados y respuestas de la API se mostrarán en la caja oscura de la pantalla.
+5. Los resultados se mostrarán en la pantalla.
