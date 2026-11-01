@@ -27,7 +27,7 @@
                 <form id="login-form">
                     <div class="form-group">
                         <label for="username">Username:</label>
-                        <input type="text" id="username" placeholder="e.g. alice" value="alice" required>
+                        <input type="text" id="username" placeholder="e.g. alice" value="alice" required maxlength="64" pattern="^[a-zA-Z0-9._@+-]{1,64}$" title="Alphanumeric, dots, dashes, underscores, and email symbols only" autocomplete="username">
                     </div>
                     <div class="form-group">
                         <label for="password">Password:</label>
