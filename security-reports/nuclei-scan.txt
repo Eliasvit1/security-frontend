@@ -1,0 +1,15 @@
+[waf-detect:nginxgeneric] [http] [info] http://service-frontend:80
+[http-missing-security-headers:x-frame-options] [http] [info] http://service-frontend:80
+[http-missing-security-headers:x-content-type-options] [http] [info] http://service-frontend:80
+[http-missing-security-headers:strict-transport-security] [http] [info] http://service-frontend:80
+[http-missing-security-headers:content-security-policy] [http] [info] http://service-frontend:80
+[http-missing-security-headers:permissions-policy] [http] [info] http://service-frontend:80
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://service-frontend:80
+[http-missing-security-headers:referrer-policy] [http] [info] http://service-frontend:80
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://service-frontend:80
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://service-frontend:80
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://service-frontend:80
+[nginx-eol:version] [http] [info] http://service-frontend:80 ["1.27.5"]
+[nginx-version] [http] [info] http://service-frontend:80 ["nginx/1.27.5"]
+[form-detection] [http] [info] http://service-frontend:80
+[tech-detect:nginx] [http] [info] http://service-frontend:80
